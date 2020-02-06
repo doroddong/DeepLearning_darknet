@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dmlee-dt01/Yolo_mark-master/main.cpp
+cstdio
+-
+iostream
+-
+vector
+-
+numeric
+-
+chrono
+-
+atomic
+-
+locale
+-
+future
+-
+iostream
+-
+iomanip
+-
+fstream
+-
+algorithm
+-
+opencv2/opencv.hpp
+-
+opencv2/core/version.hpp
+-
+opencv2/imgproc/imgproc.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+opencv2/video/tracking.hpp
+-
+opencv2/videoio/videoio.hpp
+/home/dmlee-dt01/Yolo_mark-master/opencv2/videoio/videoio.hpp
+
